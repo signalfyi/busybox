@@ -1,1 +1,1 @@
-FROM busybox:latest
+FROM busybox:latest@sha256:7d649ec545c0a0fdfba6f0eb90c0a9277949bfab5c09f723154e2fa60dadfbe6
