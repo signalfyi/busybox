@@ -1,0 +1,43 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "version": 1,
+  "metadata": {
+    "tools": [
+      {
+        "name": "trivy",
+        "vendor": "aquasecurity",
+        "version": "unknown"
+      }
+    ],
+    "component": {
+      "name": "busybox",
+      "purl": "pkg:oci/busybox@latest?digest=sha256:768e5c6f5cb6db0794eec98dc7a967f40631746c32232b78a3105fb946f3ab83",
+      "type": "library",
+      "bom-ref": "pkg:oci/busybox@latest?digest=sha256:768e5c6f5cb6db0794eec98dc7a967f40631746c32232b78a3105fb946f3ab83",
+      "version": "latest"
+    },
+    "timestamp": "2024-10-21T19:58:44.491423+00:00"
+  },
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "name": "pkg:oci/busybox@sha256%3A768e5c6f5cb6db0794eec98dc7a967f40631746c32232b78a3105fb946f3ab83?arch=amd64&repository_url=index.docker.io%2Flibrary%2Fbusybox",
+      "type": "library",
+      "bom-ref": "BomRef.11901361991027615.10546174613686388",
+      "version": "unknown"
+    }
+  ],
+  "specVersion": "1.6",
+  "dependencies": [
+    {
+      "ref": "BomRef.11901361991027615.10546174613686388"
+    },
+    {
+      "ref": "pkg:oci/busybox@latest?digest=sha256:768e5c6f5cb6db0794eec98dc7a967f40631746c32232b78a3105fb946f3ab83",
+      "dependsOn": [
+        "BomRef.11901361991027615.10546174613686388"
+      ]
+    }
+  ],
+  "serialNumber": "urn:uuid:ed4f6aeb-a2f6-4e93-b637-fa4ba67da9bb"
+}
